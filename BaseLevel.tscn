@@ -143,7 +143,6 @@ theme_override_constants/margin_top = 16
 theme_override_constants/margin_right = 16
 theme_override_constants/margin_bottom = 16
 script = ExtResource("8_tv3th")
-starting_gold = 10000
 
 [node name="Label" type="Label" parent="Bank"]
 layout_mode = 2
@@ -153,6 +152,7 @@ text = "Placeholder"
 label_settings = SubResource("LabelSettings_epnn3")
 
 [node name="DifficultyManager" parent="." instance=ExtResource("9_xkmwr")]
+game_length = 180.0
 
 [node name="VictoryLayer" parent="." instance=ExtResource("10_now27")]
 visible = false
